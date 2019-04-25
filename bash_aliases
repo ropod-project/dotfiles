@@ -1,7 +1,7 @@
 # zsh aliases
 
 # colorise ls command
-alias ls='ls --color=auto'
+alias ls='ls -l --color=auto'
 
 # some ls aliases
 alias ll='ls -alF'
@@ -19,6 +19,7 @@ function cdls(){
 }
 
 # parent directories aliases
+alias ..='cdls ../..'
 alias ...='cdls ../..'
 alias ....='cdls ../../..'
 alias .....='cdls ../../../..'

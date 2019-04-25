@@ -7,7 +7,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-commentary'
 call plug#end()
 
-colorscheme darkblue
+colorscheme onedark
 
 " my mappings
 :command! W w

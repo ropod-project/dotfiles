@@ -106,5 +106,8 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export RANGER_LOAD_DEFAULT_RC=FALSE
+if [ -f ~/.source_list ]; then
+    . ~/.source_list
+fi
+
 VISUAL=vim; export VISUAL EDITOR=vim; export EDITOR
