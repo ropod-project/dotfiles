@@ -68,12 +68,6 @@ set nocompatible
 " wildmenu for fuzzy file finding
 set wildmenu
 
-set foldmethod=indent  " Default fold method
-" set the method for folding depending on language
-autocmd FileType c,cpp,java,scala set foldmethod=syntax
-autocmd FileType sh,ruby,python   set foldmethod=indent
-set foldmethod=indent   
-
 " Show line numbers
 set number
 
