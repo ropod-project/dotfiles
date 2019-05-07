@@ -1,9 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/home/dharmin/work/black-box/pybb'
-let g:netrw_dirhist_2='/home/dharmin/work/black-box/pybb/black_box'
-let g:netrw_dirhist_3='/home/dharmin/work/black-box/pybb/black_box/datalogger'
-let g:netrw_dirhist_4='/home/dharmin/work/black-box/pybb/black_box/datalogger/data_readers'
-let g:netrw_dirhist_5='/home/dharmin/work/black-box/pybb/black_box/datalogger/data_readers/event_listeners'
-let g:netrw_dirhist_6='/home/dharmin/work/black-box/config'
-let g:netrw_dirhist_7='/home/dharmin/.vim'

@@ -10,7 +10,7 @@ Dotfiles for configurations of vim, bash and ranger.
 
 ## Installation
 
-**Note**: If you are sourcing some files creating any aliases or setting some 
+**Note**: If you are sourcing some files, creating any aliases or setting some 
 environment variables, it is recommended that you move those lines from `~/.bashrc`
 to `~/.source_list` before installing.
 
