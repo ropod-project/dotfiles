@@ -2,11 +2,20 @@
 
 Dotfiles for configurations of vim, bash and ranger.
 
+## Dependencies
+
+- Git
+- Vim and 
+- Ranger
+
 ## Installation
 
-```
-./install_dotfiles.sh
-source ~/.bashrc
-```
-
-**Note**: Git, Vim and Ranger needs to be installed for the dotfiles to work.
+- Execute install script to take backup of old files and copy new config files
+  in their respective places.
+    ```
+    ./install_dotfiles.sh
+    ```
+- Source the bashrc file to apply new changes.
+    ```
+    source ~/.bashrc
+    ```
